@@ -14,7 +14,7 @@ const Home = () => {
                         <Link to="/Atv02">Letreiro</Link>
                     </li>
                     <li>
-                        <Link to="/AtvUi">Descrevendo a UI</Link>
+                        <Link to="/AtvUi">Aula 10 - React</Link>
                     </li>
                 </ul>
             </nav>

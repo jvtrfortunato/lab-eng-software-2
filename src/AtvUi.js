@@ -34,9 +34,9 @@ export default function AtvUi() {
             <TeaGathering />
             <br />
 
-            <br />
-            <br />
             <Link to="/">Retornar a Página Inicial</Link>
+            <br />
+            <br />
         </>
     );
 }
