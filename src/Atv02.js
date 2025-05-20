@@ -7,7 +7,7 @@ function Atv02() {
       <h1>Letreiro Animado</h1>
       <Letreiro />
       <br />
-      <Link to="/">Voltar</Link>
+      <Link to="/">Retornar a Página Inicial</Link>
     </>
   );
 }

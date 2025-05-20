@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Home.css"
 
 const Home = () => {
     return (
@@ -12,6 +13,9 @@ const Home = () => {
                     </li>
                     <li>
                         <Link to="/Atv02">Letreiro</Link>
+                    </li>
+                    <li>
+                        <Link to="/Atv03">Contador</Link>
                     </li>
                     <li>
                         <Link to="/AtvUi">Aula 10 - React</Link>
