@@ -3,6 +3,7 @@ import "./contador.css";
 import Contadores from "./components/Contadores";
 import Resultados from "./components/Resultados";
 import BotaoReset from "./components/BotaoReset";
+import { Link } from "react-router-dom";
 
 export default function Atv03() {
   const [homens, setHomens] = useState(0);
@@ -28,6 +29,9 @@ export default function Atv03() {
         <Resultados homens={homens} mulheres={mulheres} />
 
         <BotaoReset resetar={resetar} />
+        <br/>
+        <br/>
+        <Link to="/">Retornar a Página Inicial</Link>
         </div>
     </div>
   );
